@@ -49,6 +49,14 @@ def get_embedding_function():
     return embeddings
 
 def add_to_chroma(chunks: list[Document]):
+    import chromadb
+
+    from chromadb.config import Settings
+    client = chromadb.Client(Settings(
+        chroma_db_impl="duckdb+parquet",
+        persist_directory=CHROMA_PATH
+    ))
+
     db = Chroma(
         persist_directory=CHROMA_PATH, embedding_function=get_embedding_function()
     )
