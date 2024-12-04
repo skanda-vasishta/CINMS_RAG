@@ -1,6 +1,8 @@
-streamlit
 langchain
-openai
+langchain-community
+langchain-openai
 chromadb
+pypdf
+streamlit
 python-dotenv
-pyyaml
+openai
