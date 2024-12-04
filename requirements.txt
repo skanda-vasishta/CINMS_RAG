@@ -6,3 +6,4 @@ pypdf
 streamlit
 python-dotenv
 openai
+sqlite3 >= 3.35.0
