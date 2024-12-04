@@ -1,7 +1,7 @@
 langchain
 langchain-community
 langchain-openai
-chromadb
+chromadb>=0.4.0
 pypdf
 streamlit
 python-dotenv
