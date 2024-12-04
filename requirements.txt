@@ -6,3 +6,4 @@ pypdf
 streamlit
 python-dotenv
 openai
+pysqlite3-binary
